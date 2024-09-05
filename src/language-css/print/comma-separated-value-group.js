@@ -408,7 +408,7 @@ function printCommaSeparatedValueGroup(path, options, print) {
     }
 
     // don't print line when the next node is a comment and last node
-    // it will be printed with the comment in a  linesuffix
+    // it will be printed with the comment in a line suffix
     if (isInlineValueCommentNode(iNextNode) && !iNextNextNode) {
       continue;
     }
